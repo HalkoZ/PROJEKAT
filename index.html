@@ -6,24 +6,50 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
-    <div class="nav-container d-flex justify-content-around  align-items-center">
-        <div class="img-container">
-        <img class="logo" src="data:image/webp;base64,UklGRl4BAABXRUJQVlA4TFEBAAAvQoAEEH8gFkzmL92ZwvzP/0QkdBzIsW1rmZT766p2t8hd/7XaBRhCD4EeAg5ZQUbmeVWMu0UwgqoJIGm7e/d3gu/7sRFE9H8CPn2JpfdfYv1DQ6t0TOm/KfwHRP9BlevK3Qa1jdUpGQvGxlQ9ViddvdXguOf4BmSKbOiAVvDyvNQOUGLhWwDZBGJocSUALx3lx5TmLfxjXkCNKw9L4BkOWTiidItc9RnxFpCtdn3losA3PGbjmNI9WmsOKb0NVKa8YmOqtkOGCLDsUhkIUy4BhcDa/71T8FJ0BGStouvn9++rmQQoTateAjxD1Gbt0iplVARGU/JPMpchMEQ6htJN6Nl/qX2gUA0Dh7zc4oIgtDah9BJ2BHMQGoCXv8CAZy1CqU6AjTvgnVK572gDuKczIumMUi0aKNkkp20WLsELcnoNPyP9bvWYr/SkU3bbmCcBAA==" alt="logo">
+</div>
+    <div class="topnav" id="myTopnav">
+        <div class="img-div">
+        <img class="active" src="data:image/webp;base64,UklGRl4BAABXRUJQVlA4TFEBAAAvQoAEEH8gFkzmL92ZwvzP/0QkdBzIsW1rmZT766p2t8hd/7XaBRhCD4EeAg5ZQUbmeVWMu0UwgqoJIGm7e/d3gu/7sRFE9H8CPn2JpfdfYv1DQ6t0TOm/KfwHRP9BlevK3Qa1jdUpGQvGxlQ9ViddvdXguOf4BmSKbOiAVvDyvNQOUGLhWwDZBGJocSUALx3lx5TmLfxjXkCNKw9L4BkOWTiidItc9RnxFpCtdn3losA3PGbjmNI9WmsOKb0NVKa8YmOqtkOGCLDsUhkIUy4BhcDa/71T8FJ0BGStouvn9++rmQQoTateAjxD1Gbt0iplVARGU/JPMpchMEQ6htJN6Nl/qX2gUA0Dh7zc4oIgtDah9BJ2BHMQGoCXv8CAZy1CqU6AjTvgnVK572gDuKczIumMUi0aKNkkp20WLsELcnoNPyP9bvWYr/SkU3bbmCcBAA==" alt="logo">
         </div>
-        <div class="nav-bar d-flex">
-        <a class="nav-link" href="#">HOME</a>
-        <a class="nav-link" href="#">ABOUT</a>
-        <a class="nav-link" href="#">SERVICES</a>
-        <a class="nav-link" href="#">PAGES</a>
-        <a class="nav-link" href="#">BLOG</a>
-        <a class="nav-link" href="#">CONTACT</a>
+        <div class="link-div">
+        <a href="#" class="mini">-</a>
+        <a href="#home">HOME</a>
+        <a href="#contact">ABOUT</a>
+        <a href="#services">SERVICES</a>
+        <a href="#pages">PAGES</a>
+        <a href="#blog">BLOG</a>
+        <a href="#contact">CONTACT</a>
         </div>
-        <div class="nav-button">
-        <a class="link-button" href="#">Free Trial</a>
+        
+        <button class="nav-button">Free Trial</button>
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+<i class="fa fa-bars"></i>
+<div class="line"></div><div class="line"></div><div class="line"></div></a>
 </div>
 </div>
-<div class="container-fluid">
-<div class=""></div>
+
+    
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+        x.className += " responsive";
+        } else {
+        x.className = "topnav";
+        }
+    }
+    </script>
+
+<div class="section container-fluid g-0 row d-flex justify-content-center align-items-center">
+<div class="informative-div">
+
+</div>
+
+<div class="informative-image-div">
+
+</div>
+
 </div>
 
 
