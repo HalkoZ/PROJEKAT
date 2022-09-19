@@ -3,8 +3,7 @@ font-family:'Roboto', sans-serif;}
 
 .topnav {
     overflow: hidden;
-    background-color: rgb(72, 219, 219);
-position: sticky;
+    background-color: #5aa7fa;
 }
 
 .topnav a {
@@ -36,7 +35,7 @@ padding: 25px 20px;
 .nav-button {padding: 15px 40px;
 margin-top: 10px;
 margin-left: 200px;
-background-color: rgb(72, 219, 219);
+background-color: #6db2fc;
 border: 1px solid white;
 border-radius: 5px;
 font-size: 13px;
@@ -63,7 +62,7 @@ display: block;
 
 @media screen and (max-width: 992px) {
     .topnav.responsive {position: relative;
-    }
+    height: 480px;}
     .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -78,6 +77,63 @@ display: block;
 .line {color: white; background-color: white;
 width: 20px; height: 3px; padding: 2px;}
 
-.section {background-color: rgb(72, 219, 219);
+.section {background-color: #5aa7fa;
 height: 100vh;
+display: flex; justify-content: center; align-items: center;
+flex-direction: row;
 }
+
+.informative-title {font-size: 48px;
+color: white;
+font-family: "Heebo", sans-serif;
+font-weight: bold;
+margin-bottom: 20px;
+margin-left: 100px;}
+.informative-paragraph {color: white;
+font-size: 14px;
+margin-bottom: 35px;
+margin-left: 100px;}
+.informative-button {color: white;
+font-size: 14px;
+font-weight: 500px;
+margin-right: 10px;
+border: 1px solid white;
+border-radius: 3px;
+background-color: #6db2fc;
+margin-left: 100px;
+padding: 16px 30px;
+text-decoration: none;
+transition: 0.7s;}
+.informative-button:hover {background-color: white;
+color: black;}
+.informative-button-2 {color: black;
+    font-size: 14px;
+    font-weight: 500px;
+    background-color: white;
+    padding: 16px 30px;
+    text-decoration: none;
+    transition: 0.7s;
+    border: 1px solid white;
+    border-radius: 3px;}
+.informative-button-2:hover {background-color: #6db2fc;
+color: white;
+border: 1px solid white;
+border-radius: 3px;}
+.informative-img {max-width: 100%; display: flex; justify-content: center;
+height: 400px;}
+@media screen and (max-width: 992px) {
+.informative-img {display: none;}
+.informative-image-div {display: none;}
+.section {height: 35vh;}
+.informative-div {display: flex; justify-content: flex-start; align-items: flex-start;
+margin-left: 100px;
+flex-direction: column;}
+.informative-title {margin-left: 0px;
+font-size: 36px;
+margin-top: 15px;}
+.informative-paragraph {margin-left: 0px;}
+.informative-button {margin-left: 0px; margin-bottom: 10px;}
+.informative-button-2 {margin-left: 0px;}
+.section {display: flex; justify-content: flex-start; align-items: flex-start;}
+}
+.aaa {height: 100vh; background-color: green;}
