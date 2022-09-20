@@ -73,7 +73,7 @@ color: black;}
     }
     
     @media (min-width: 992px) {
-    .informative-div{height: 70vh !important;
+    .informative-div{height: 100vh !important;
     }
     .desktop-padding-top {
     padding-top: 100px;
