@@ -59,7 +59,8 @@ color: black;}
         .informative-div .informative-paragraph {font-size: 20px;}
         .informative-div .Informative-button1 {padding: 30px 50px;}
         .informative-div .Informative-button2 {padding: 30px 55px;}
-        }
+        .informative-div {height: 50vh;}
+    }
 
 
 .section1 {background-color: #5aa7fa;}
