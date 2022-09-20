@@ -54,12 +54,12 @@ color: black;}
         .topnav.responsive a {display: flex;
         border-bottom: 1px solid gray;}
         .informative-picture {display: none;}
-        .informative-div .informative-title {font-size: 60px;}
-        
-        .informative-div .informative-paragraph {font-size: 20px;}
-        .informative-div .Informative-button1 {padding: 30px 50px;}
-        .informative-div .Informative-button2 {padding: 30px 55px;}
-        .informative-div {height: 50vh;}
+        .informative-div .informative-title {margin-top: 200px; font-size: 50px; }
+        .informative-div .informative-paragraph {font-size: 25px;}
+        .informative-div .Informative-button1 {padding: 30px 50px; font-size: 30px;}
+        .informative-div .Informative-button2 {padding: 30px 55px; font-size: 30px;}
+        .informative-div {height: 20vh;
+        }
     }
 
 
