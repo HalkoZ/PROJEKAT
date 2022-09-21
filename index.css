@@ -114,3 +114,44 @@ transition: 0.7s;
 margin-left: 10px;}
 .Informative-button2:hover {background-color: #5aa7fa;
 color: white;}
+.section2 {height: 90vh;
+background-color: white;}
+.informative-text-title {font-family: "Heebo", sans-serif;
+font-size: 36px;
+color: #222222;
+font-weight: bold;
+margin-bottom: 15px;}
+.informative-text-paragraph {font-size: 14px;
+color: gray;}
+.title-card {font-family: "Heebo", sans-serif;
+font-size: 20px;
+color: #222222;
+font-weight: bold;
+margin-bottom: 20px;}
+.paragraph-card {font-size: 14px;
+color: gray;}
+.monitor-png {height: 80px;
+background-color: rgb(238, 238, 238);
+border: 1px solid rgb(219, 219, 219);
+padding: 25px 25px;
+border-radius: 5px;
+margin-bottom: 30px;}
+.title-card:hover{color: #5aa7fa;}
+.monitor-png:hover {background-color: #5aa7fa;
+color: white;}
+.html-png {height: 80px;
+background-color: rgb(238, 238, 238);
+border: 1px solid rgb(219, 219, 219);
+padding: 25px 25px;
+border-radius: 5px;
+margin-bottom: 30px;}
+.html-png:hover {background-color: #5aa7fa;
+color: white;}
+.alarm-clock-png {height: 80px;
+background-color: rgb(238, 238, 238);
+border: 1px solid rgb(219, 219, 219);
+padding: 25px 25px;
+border-radius: 5px;
+margin-bottom: 30px;}
+.alarm-clock-png:hover {background-color: #5aa7fa;
+color: white;}
