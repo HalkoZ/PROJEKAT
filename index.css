@@ -62,7 +62,7 @@ color: black;}
         border-bottom: 1px solid gray;}
         .informative-picture {display: none;}
         .informative-diva {display: none;}
-
+.price-card {width: 300px;}
 }
 
 
@@ -137,8 +137,10 @@ border: 1px solid rgb(219, 219, 219);
 padding: 25px 25px;
 border-radius: 5px;
 margin-bottom: 30px;}
-.title-card:hover{color: #5aa7fa;}
-.monitor-png:hover {background-image: -webkit-linear-gradient(3deg, #4dabff 0%, #62ddff 100%);
+.card-one:hover .title-card {color: #3bacf0;}
+.card-two:hover .title-card {color: #3bacf0;}
+.card-three:hover .title-card {color: #3bacf0;}
+.card-one:hover .monitor-png {background-image: -webkit-linear-gradient(3deg, #4dabff 0%, #62ddff 100%);
 color: white;}
 .html-png {height: 80px;
 background-color: rgb(238, 238, 238);
@@ -146,7 +148,7 @@ border: 1px solid rgb(219, 219, 219);
 padding: 25px 25px;
 border-radius: 5px;
 margin-bottom: 30px;}
-.html-png:hover {background-image: -webkit-linear-gradient(3deg, #4dabff 0%, #62ddff 100%);
+.card-two:hover .html-png {background-image: -webkit-linear-gradient(3deg, #4dabff 0%, #62ddff 100%);
 color: white;}
 .alarm-clock-png {height: 80px;
 background-color: rgb(238, 238, 238);
@@ -154,22 +156,30 @@ border: 1px solid rgb(219, 219, 219);
 padding: 25px 25px;
 border-radius: 5px;
 margin-bottom: 30px;}
-.alarm-clock-png:hover {background-image: -webkit-linear-gradient(3deg, #4dabff 0%, #62ddff 100%);
+.card-three:hover .alarm-clock-png {background-image: -webkit-linear-gradient(3deg, #4dabff 0%, #62ddff 100%);
 color: white;}
 @media (min-width: 575px) {
-.section1 {min-height: 450px;
+.section1 {height: auto;
+width: auto;
 }
 .informative-div {padding: 10px 0px 30px 0px;
-min-height: 450px;
 }
 .section2 {padding: 30px 0px;
-min-height: 450px;
+height: auto;
+width: auto;
 }
 .section3 {padding: 30px 0px;
-min-height: 450px;
+height: auto;
+width: auto;
 }
 .section4 {padding: 30px 0px;
-min-height: 450px;}
+height: auto;
+width: auto;}
+.section5 {height: auto;
+width: auto;}
+.section6 {height: auto;
+width: auto;
+padding: 30px 0px;}
 }
 .section3 {padding: 0px 0px;
 background-color: #edf6ff;}
@@ -236,5 +246,77 @@ font-size: 14px;}
 border-radius: 10px;
 }
 .section5 {background-color: #edf6ff;
-color: green;}
-
+}
+.price-main-title {font-family: "Heebo", sans-serif;
+font-size: 36px;
+color: #222222;
+font-weight: bold;
+margin-bottom: 15px;}
+.section6 {background-color: white;
+padding: 120px 0px;}
+.price-main-paragraph {font-size: 14px;
+color: gray;
+margin-bottom: 60px;}
+.price-card-header {padding: 35px 0px;
+background-color: #edf6ff;
+}
+.price-card-title {font-size: 20px;
+color: black;
+font-family: "Heebo", sans-serif;
+font-weight: bold;}
+.price-card-paragraph {padding: 30px 0px;}
+.price-link {text-decoration: none;
+color: gray;
+font-size: 14px;
+margin: 10px 0px;}
+.price-footer {background-color: #edf6ff;
+max-width: 200px;
+margin-left: 40px;
+margin-right: 40px;
+margin-bottom: 40px;
+padding: 35px 0px;
+border: none;
+border-radius: 5px;}
+.price-card .price-footer {width: 280px;}
+.price-number {font-size: 72px;
+color: black;
+font-family: "Heebo", sans-serif;
+font-weight: bold;
+margin-bottom: 10px;}
+.dollar {font-size: 24px;
+vertical-align: top;
+padding-top: 14px;
+display: inline-block;}
+.month {font-size: 14px;
+color: #777777;
+font-family: "Roboto", sans-serif;
+display: inline-block;
+text-align: left;}
+.price-button {padding: 0px 45px;
+    display: inline-block;
+    background-image: linear-gradient(to right, #4dabff 0%, #62ddff 48%, #4dabff 100%);
+font-size: 13px;
+font-weight: 500;
+border: none;
+border-radius: 5px;
+color: white;
+text-decoration: none;
+padding: 15px 45px;}
+.price-card {border: 1px solid rgb(238, 238, 238);
+padding: 0 !important;
+margin: 0 !important;
+border-radius: 5px;}
+.price-link:hover{color: gray;}
+.price-card:hover .price-card-header {
+    background-image: -webkit-linear-gradient(0deg, #4dabff 0%, #62ddff 100%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.price-card:hover .price-card-header .price-card-title {color: white;}
+.price-card:hover .price-footer {background-image: -webkit-linear-gradient(0deg, #4dabff 0%, #62ddff 100%);
+}
+.price-card:hover .price-number {color: white;}
+.price-card:hover .month {color: white;}
+.price-card:hover .price-button {color: black;
+background-color: white;
+background-image: none;}
