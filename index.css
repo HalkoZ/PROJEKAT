@@ -66,7 +66,8 @@ color: black;}
 }
 
 
-.section1 {background-image: -webkit-linear-gradient(3deg, #4dabff 0%, #62ddff 100%);}  
+.section1 {background-image: -webkit-linear-gradient(3deg, #4dabff 0%, #62ddff 100%);
+padding: 0px 0px 120px 0px;}  
 .informative-div{
     display: flex;
     justify-content: center;
@@ -159,8 +160,7 @@ margin-bottom: 30px;}
 .card-three:hover .alarm-clock-png {background-image: -webkit-linear-gradient(3deg, #4dabff 0%, #62ddff 100%);
 color: white;}
 @media (min-width: 575px) {
-.section1 {height: auto;
-width: auto;
+.section1 {height: auto;    
 }
 .informative-div {padding: 10px 0px 30px 0px;
 }
@@ -319,4 +319,73 @@ border-radius: 5px;}
 .price-card:hover .month {color: white;}
 .price-card:hover .price-button {color: black;
 background-color: white;
-background-image: none;}
+background-image: none;}    
+.section7 {padding: 120px 0px;}
+.feedback-title {font-family: "Heebo", sans-serif;
+font-size: 36px;
+color: black;
+font-weight: bold;
+margin-bottom: 15px;
+}
+.feedback-paragraph {font-size: 14px;
+color: gray;}
+.customer-feedback-div {background-color: white;
+padding: 40px; margin: 20px;
+border: none;
+border-radius: 5px;}
+.customer-image {float: left; padding: 0px 20px 40px 0px;}
+.customer-text {font-size: 14px;
+color: gray;
+}
+.customer-name {color: black;
+font-family: "Heebo", sans-serif;
+font-weight: bold;
+font-size: 20px}
+.rating-img {height: 15px;}
+.customers-div {padding-top: 50px;}
+.section8 {background-color: white;
+padding: 120px 0px;}
+.change-title {color: black;
+    font-size: 36px;
+    font-family: "Heebo", sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;}
+.change-mini-title {color: black;
+font-size: 16px;
+font-weight: 500;}
+.change-image {width: 85%;
+border-radius: 10px;
+margin-left: 90px;}
+.change-paragraph {font-size: 14px;
+color: gray;}
+.change-button {text-decoration: none;
+color: white;
+font-size: 13px;
+font-weight: bold;
+background-image: linear-gradient(to right, #4dabff 0%, #62ddff 48%, #4dabff 100%);
+padding: 15px 30px;
+border-radius: 5px;
+}
+.change-button-div {margin-top: 50px;}
+.section9 {background-color: #3bacf0;
+padding: 120px 0px;}
+.ending-title {color: white;
+    font-size: 36px;
+    font-family: "Heebo", sans-serif;
+    font-weight: bold;
+    margin-bottom: 18px;}
+.ending-paragraph {color: white;
+font-size: 14px;
+margin-bottom: 35px;}
+.ending-button {background-color: white;
+color: black;
+font-size: 13px;
+font-weight: 700;
+text-decoration: none;
+padding: 15px 30px;
+border-radius: 3px;
+transition: 0.7s;}
+.ending-button:hover {background-color: #3bacf0;
+border: 1px solid white;
+color: white;}
+.ending-button-div {margin-top: 35px;}
