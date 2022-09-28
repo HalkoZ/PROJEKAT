@@ -11,7 +11,9 @@ box-sizing: border-box;
     overflow: hidden;
     background-image: -webkit-linear-gradient(3deg, #4dabff 0%, #62ddff 100%);
     display: flex; justify-content: space-around; align-items: center;
-padding: 10px 0px;}
+padding: 10px 0px;
+position: fixed;
+width: 100%;}
 
 .topnav a {padding: 25px;
     color: white;
@@ -63,6 +65,11 @@ color: black;}
         .informative-picture {display: none;}
         .informative-diva {display: none;}
 .price-card {width: 300px;}
+.follow-me-div .follow-me-title {margin-top: 30px;
+margin-left: 20px;}
+.follow-me-paragraph {margin-left: 20px;}
+.emojis-div {margin-left: 20px;}
+.emojis {margin: 0px 5px;}
 }
 
 
@@ -366,6 +373,7 @@ background-image: linear-gradient(to right, #4dabff 0%, #62ddff 48%, #4dabff 100
 padding: 15px 30px;
 border-radius: 5px;
 }
+.change-button:hover {color: white;}
 .change-button-div {margin-top: 50px;}
 .section9 {background-color: #3bacf0;
 padding: 120px 0px;}
@@ -389,3 +397,83 @@ transition: 0.7s;}
 border: 1px solid white;
 color: white;}
 .ending-button-div {margin-top: 35px;}
+.footer {background-color: #000410;
+padding: 120px 0px;}
+.footer-about-me-title {color: white;
+font-size: 20px;
+font-weight: bold;
+font-family: "Heebo", sans-serif;
+margin-bottom: 30px;}
+.footer-about-me-paragraph {font-size: 14px;
+line-height: 24px;
+font-family: "Roboto", sans-serif;
+color: #777777;
+margin-bottom: 30px;}
+.footer-about-me-paragraph2 {font-size: 14px;
+line-height: 24px;
+font-family: "Roboto", sans-serif;
+color: #777777;
+margin-bottom: 0px;}
+.footer-about-me-link {text-decoration: none;
+font-size: 14px;
+color: #3bacf0;}
+.footer-about-me-link:hover {color: #3bacf0;}
+.footer-newsletter-title {color: white;
+font-size: 20px;
+font-weight: bold;
+font-family: "Heebo", sans-serif;
+margin-bottom: 30px;}
+.footer-newsletter-paragraph {font-size: 14px;
+line-height: 24px;
+font-family: "Roboto", sans-serif;
+color: #777777;
+}
+
+.input-bar{
+height: 40px;
+background: #fff;
+width: 60%;
+padding: 0px 15px;
+font-size: 14px;
+font-family: "Roboto", sans-serif;
+color: #cccccc;
+outline: none;
+box-shadow: none;
+border: none;
+}
+.bar-button{
+background: #3bacf0;
+width: 42px;
+cursor: pointer;
+color: #fff;
+padding-top: 7px;
+padding-bottom: 9px;
+margin-left: -5px;
+outline: none;
+box-shadow: none;
+border: none;
+}
+.follow-me-title {color: white;
+font-size: 20px;
+font-weight: bold;
+font-family: "Heebo", sans-serif;
+margin-bottom: 30px;
+}
+.follow-me-paragraph {font-size: 14px;
+line-height: 24px;
+font-family: "Roboto", sans-serif;
+color: #777777;}
+.emojis {color: #cccccc;
+font-size: 14px;
+margin: 0px 5px;}
+.emojis:hover {color: #007bff;}
+.head-title {color: white;
+font-size: 36px;
+font-family: "Heebo", sans-serif;
+font-weight: bold;}
+.home-link {font-size: 14px;
+color: white;
+text-decoration: none;
+}
+.home-link:hover {color: white;}
+.about-us-div {padding: 90px 0px;}
