@@ -429,7 +429,8 @@ line-height: 24px;
 font-family: "Roboto", sans-serif;
 color: #777777;
 }
-
+.section-one {background-image: -webkit-linear-gradient(3deg, #4dabff 0%, #62ddff 100%);
+height: auto;}
 .input-bar{
 height: 40px;
 background: #fff;
